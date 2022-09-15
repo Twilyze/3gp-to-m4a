@@ -1,8 +1,8 @@
-﻿# 3gpファイルをm4aに変換するスクリプト v1.3.0
+﻿# 3gpファイルをm4aに変換するスクリプト v1.3.1
 using namespace System.IO
 Add-Type -AssemblyName Microsoft.VisualBasic
 chcp 65001
-Write-Output '3gpファイルをm4aに変換するスクリプト v1.3.0'
+Write-Output '3gpファイルをm4aに変換するスクリプト v1.3.1'
 
 
 # 同じ名前のm4aファイルが既にある場合、変換をスキップするか
