@@ -166,8 +166,8 @@ if ($missingExeFiles.count -ne 0) {
 #----------------------------
 # ExifToolで抽出した情報からファイル(m3u8,img,tsv)を作成
 #----------------------------
-if (Test-Path -LiteralPath $fileAll -PathType leaf) {
-  $result = $wshell.popup("既に'$fileAll'が存在します。`nもう一度ファイルリストを作成しますか？", 0, '確認', $vbYesNo)
+if (Test-Path -LiteralPath $fileM4aPL -PathType leaf) {
+  $result = $wshell.popup("既に'$fileM4aPL'が存在します。`nもう一度ファイルリストを作成しますか？", 0, '確認', $vbYesNo)
   $popupSkip = $false
 }
 if ($popupSkip -or ($result -eq $vbYes)) {
